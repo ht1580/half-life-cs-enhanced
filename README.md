@@ -1,19 +1,23 @@
-# Half-Life 拓展
+# Half-Life 拓展 · Steam 单人版
 
-[下载最新版 ZIP（安装 EXE、中文说明及校验表）](https://github.com/ht1580/half-life-cs-enhanced/releases/download/v2026.10.10-preview-optics/HalfLife-Expansion-2026.10.10-Optics.zip)
+[下载最新版 ZIP：安装 EXE、中文使用说明及校验表](https://github.com/ht1580/half-life-cs-enhanced/releases/download/v2026.10.10-steam-single/HalfLife-Expansion-2026.10.10-SteamSingle.zip)
 
-当前可玩预览版：2026.10.10-preview-optics。包含 30 把泰坦陨落武器、17 把 CS 武器、戈登 HEV 手部、三种运动预设、画面与分类声音设置、HEV 界面与速度计、物品轮盘、分层地图与剧情指引，以及四张真实社区地图。
+运行安装 EXE，选择 Steam 的 Half-Life 目录。安装后直接在 Steam 游戏库点击 Half-Life 的“开始”；默认游戏画面采用 16:10，拉伸并铺满显示器当前分辨率。在游戏内可选择 16:10 / 4:3；你的 16:9 屏幕会呈现对应的水平拉伸效果。全部新增设置位于游戏内 **选项 → 拓展**，原版 Options 继续可用。
 
-TF 步枪使用 2X HCOG，机枪使用 3X 实体镜及中心点，其他已对齐的 TF 武器使用机瞄。榴弹类与充能步枪保留侧面姿态；已有狙击枪保持原有镜子。CS AUG/SG552 保留原生镜，M4A1/Deagle 使用通过视觉检查的中心机瞄；其余遮挡较大或难以调整的 CS 枪按用户要求恢复侧面原姿态并加中心点。
+包含 30 把泰坦陨落武器、17 把 CS 武器、戈登 HEV 手部、预设 1 / Apex / Titanfall 2 运动、分类声音、手电筒、高清资源、HEV HUD、速度计、Alt 轮盘、分层大地图与剧情指引。207 个动作可各设两个按键。
 
-运行 ZIP 中的安装 EXE，选择包含 hl.exe、hw.dll、valve 的 Half-Life 目录。安装器会备份修改文件及存档，并在更新后校验；保留已有偏好和双键绑定，失败时回滚。安装包不包含原版游戏或引擎。
+TF 步枪使用 2X HCOG，机枪使用 3X 实体镜与中心点；已校正的其他 TF 武器使用机瞄。榴弹类、充能步枪与大型发射器保持侧面姿态。已有狙击镜保持原样。CS AUG / SG552 使用原生镜子，AK47、M4A1 及全部 CS 手枪（Deagle、USP、Glock）使用居中机瞄；其余遮挡过大的 CS 枪保持原始侧面瞄准与中心点。Apex 与 Titanfall 2 运动为 GoldSrc 玩法适配。
 
-通过 HalfLifeTools.exe 或桌面“Half-Life CS 单人增强”启动，默认 16:10 输入拉伸到 16:9 全屏。游玩 TF/CS 内容不要勾选原版旧存档入口；原版存档使用原版 DLL 兼容入口读取。
+在“剧情与社区地图”选择 19 个章节、5 个进度或 fy_pool_day、fy_snow、awp_india、scoutzknivez。剧情跳转前自动保存，确认成功才切换，并可返回跳转前进度。
 
-F2 打开装备/作弊与设置菜单，Alt 物品轮盘，M 分层大地图，右键瞄准，Mouse5 副攻击，B 快捷撬棍。207 个动作均可在启动器里设置两个按键；升级保留滚轮前进和跳跃。
+“存档与兼容模式”会识别存档当前关卡的格式，使用合适的游戏库自动重启读取。原版旧存档保留原文件，无需手动搬移。原版兼容模式保留画面和输入增强；TF / CS 武器内容使用拓展模式。
 
-四张社区地图：fy_pool_day、fy_snow、awp_india、scoutzknivez。联机版本标识 cw_20261010_net2，同局域网对战的控制台操作见 ZIP 内的中文说明。原生房间菜单、合作及跨电脑验证仍在队列中。
+默认键：右键瞄准、Mouse5 次要攻击、Ctrl 冲刺、Shift 蹲下 / 滑铲、B 快捷撬棍、G 武器弹药、Alt 物品轮盘、M 分层大地图、F2 装备与作弊。个人原有绑定优先，全部可在游戏内修改。
 
-已完成隔离安装与真实 Steam 目录安装；实际目录的武器检查通过，原有 113 个存档相关文件最终校验一致。原生 Steam 一键直启、全部设置移入原生 Options，以及新增性能/加载、跳关和旧存档兼容改进尚未验收，本包继续使用已验证的启动器。
+安装器自动备份存档和被替换文件，验证安装资源，保留偏好及双键绑定，失败时回滚。必须已有 Half-Life 并登录 Steam；原版游戏、原版引擎和用户存档不随安装包分发。
 
-源码修改、SDK 许可证和资源署名随安装目录提供；详细范围见[版本说明](https://github.com/ht1580/half-life-cs-enhanced/releases/tag/v2026.10.10-preview-optics)。Apex 与 Titanfall 2 运动是 GoldSrc 玩法适配。
+加载优化包含压缩纹理、模型缓存、后台预读与启动准备缓存。实测切图约 0.4～0.6 秒，仍存在加载时间。
+
+多人内容按要求暂缓，本版验收范围为单人。原生房间、合作与跨电脑联机仍保存在待办中。
+
+源码及资源署名随安装目录提供，详情见[使用说明和发布记录](https://github.com/ht1580/half-life-cs-enhanced/releases/tag/v2026.10.10-steam-single)。
