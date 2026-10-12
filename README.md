@@ -1,3 +1,11 @@
+# Half-Life 拓展 · 发布验收状态更正
+
+正式版：2026.10.11-training-bots / net7。[下载正式版 ZIP](https://github.com/ht1580/half-life-cs-enhanced/releases/download/v2026.10.11-training-bots/HalfLife-Expansion-2026.10.11-TrainingBots.zip)
+
+性能预览版：[下载 2026.10.11-performance ZIP](https://github.com/ht1580/half-life-cs-enhanced/releases/download/v2026.10.11-performance/HalfLife-Expansion-2026.10.11-Performance.zip)。本版后台原游戏启动文件、Steam认证、同存档、原生设置及正常退出通过；Steam前台全屏尝试没有通过验收，原因尚未隔离，不能用旧组件的证据代替新组合实测。会议限制下尚待复测，因此已标为预览，不列为正式最新版。下载文件、存档、个人设置和备份均保留。
+
+以下为性能预览版的功能、后台测试与实测限制说明；不表示前台全屏已通过。
+
 # Half-Life 拓展 · 全局性能与加载优化
 
 最新版：2026.10.11-performance；网络版本 cw_20261011_net7。
